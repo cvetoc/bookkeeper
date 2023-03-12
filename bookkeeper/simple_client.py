@@ -11,6 +11,8 @@ from bookkeeper.utils import read_tree
 from PySide6.QtWidgets import QApplication
 from bookkeeper.view.Window import Window
 
+import sys
+
 def memory_client():
     cat_repo = MemoryRepository[Category]()
     exp_repo = MemoryRepository[Expense]()
